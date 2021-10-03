@@ -5,6 +5,7 @@ An [express](https://github.com/expressjs/express) app example with an integrati
 
 1. Clone this repository.
 1. Run `yarn` to install the dependencies.
+1. Run `yarn build` to compile the code.
 1. Run `yarn start` to spin the server.
 
 ## Requests
