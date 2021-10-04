@@ -1,5 +1,5 @@
 # depinj-express-example
-An [express](https://github.com/expressjs/express) app example with an integration of [depinj](https://github.com/sj-freitas/depinj).
+An [express](https://github.com/expressjs/express#readme) app example with an integration of [depinj](https://github.com/sj-freitas/depinj#readme).
 
 ## Usage
 

@@ -1311,18 +1311,18 @@ depd@~1.1.2:
   resolved "https://registry.yarnpkg.com/depd/-/depd-1.1.2.tgz#9bcd52e14c097763e749b274c4346ed2e560b5a9"
   integrity sha1-m81S4UwJd2PnSbJ0xDRu0uVgtak=
 
-depinj-express@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/depinj-express/-/depinj-express-1.5.0.tgz#6a29469c7d8156dc35ebc9dbf7e1f56c2648bb3c"
-  integrity sha512-pSufRcjqBdt8P2XN3XhzshFJHFa3WEoe8hM5F2wJ0v6LoeuO9+C9bQ8uFL5cNddgL1ZE1ctgS3mCmplFDUvuBg==
+depinj-express@^1.5.2:
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/depinj-express/-/depinj-express-1.5.2.tgz#0fac88fcbae1f4c94bcdd04fd2a711ee61a994ba"
+  integrity sha512-MRJOTU9Y+iDnmr7fm4CWbsazs+ZqCmCIXQAbUzqmzgqecsn/OGMJex6bm1c/bnIM0gZdMMp/ZkELn7UN8PM9jw==
   dependencies:
-    depinj-js "^1.5.0"
+    depinj-js "^1.5.2"
     express "^4.17.1"
 
-depinj-js@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/depinj-js/-/depinj-js-1.5.0.tgz#e7172300851be8808bec97e5a6deed112c591bbb"
-  integrity sha512-pZdQYMt96cYfmMT9mUIBo0iKsj28/UAHzmbkYXaenEfzoMjZf2rbbR0XsPEy26uB6WjSi64/oAG6gXS7PmLdXw==
+depinj-js@^1.5.2:
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/depinj-js/-/depinj-js-1.5.2.tgz#ca0d116bf64ec2625946c072896639c9b9f5865b"
+  integrity sha512-wqp4Y14jXT3F1PnGs6jsItzlyJ0o0uobEg8vqKXWvHYvyS3aJ/MD77jByRPPqWVXht5t7W3N+kdAUjdzpYN4rQ==
 
 destroy@~1.0.4:
   version "1.0.4"
