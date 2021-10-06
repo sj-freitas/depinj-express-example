@@ -11,7 +11,7 @@ An [express](https://github.com/expressjs/express#readme) app example with an in
 ## Requests
 
 Do the following curls:
-- Increment counter: `curl --request POST --url 'http://localhost:3000/counter'`
+- Increment counter: `curl -I --request POST --url 'http://localhost:3000/counter'`
 - Check value of counter: `curl --request GET --url 'http://localhost:3000/counter'`
 
 Enjoy!

@@ -1,6 +1,6 @@
 {
   "name": "depinj-express-example",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "An express application using depinj",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -25,15 +25,17 @@
     "@types/express": "^4.17.11",
     "@types/jest": "^26.0.20",
     "@types/node": "^14.14.28",
+    "@types/uuid": "^8.3.1",
     "jest": "^26.4.0",
     "ts-jest": "^26.5.1",
     "ts-node-dev": "^1.1.1",
     "typescript": "^4.1.5"
   },
   "dependencies": {
-    "depinj-js": "^1.5.2",
-    "depinj-express": "^1.5.2",
+    "depinj-js": "^1.5.5",
+    "depinj-express": "^2.0.0",
     "express": "^4.17.1",
-    "tslib": "^2.1.0"
+    "tslib": "^2.1.0",
+    "uuid": "^8.3.1"
   }
 }

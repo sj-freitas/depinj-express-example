@@ -1,5 +1,5 @@
 import { Builder, Registry } from "depinj-js";
-import { registerControllers } from "./add-controllers";
+import { registerControllers } from "./add-handlers";
 import { registerServices } from "./add-services";
 
 export function registerAll(): Registry {

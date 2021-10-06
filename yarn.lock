@@ -668,6 +668,11 @@
   resolved "https://registry.yarnpkg.com/@types/strip-json-comments/-/strip-json-comments-0.0.30.tgz#9aa30c04db212a9a0649d6ae6fd50accc40748a1"
   integrity sha512-7NQmHra/JILCd1QqpSzl8+mJRc8ZHz3uDm8YV1Ks9IhK0epEiTw8aIErbvH9PI+6XbqhyIQy3462nEsn7UVzjQ==
 
+"@types/uuid@^8.3.1":
+  version "8.3.1"
+  resolved "https://registry.yarnpkg.com/@types/uuid/-/uuid-8.3.1.tgz#1a32969cf8f0364b3d8c8af9cc3555b7805df14f"
+  integrity sha512-Y2mHTRAbqfFkpjldbkHGY8JIzRN6XqYRliG8/24FcHm2D2PwW24fl5xMRTVGdrb7iMrwCaIEbLWerGIkXuFWVg==
+
 "@types/yargs-parser@*":
   version "20.2.1"
   resolved "https://registry.yarnpkg.com/@types/yargs-parser/-/yargs-parser-20.2.1.tgz#3b9ce2489919d9e4fea439b76916abc34b2df129"
@@ -1311,18 +1316,18 @@ depd@~1.1.2:
   resolved "https://registry.yarnpkg.com/depd/-/depd-1.1.2.tgz#9bcd52e14c097763e749b274c4346ed2e560b5a9"
   integrity sha1-m81S4UwJd2PnSbJ0xDRu0uVgtak=
 
-depinj-express@^1.5.2:
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/depinj-express/-/depinj-express-1.5.2.tgz#0fac88fcbae1f4c94bcdd04fd2a711ee61a994ba"
-  integrity sha512-MRJOTU9Y+iDnmr7fm4CWbsazs+ZqCmCIXQAbUzqmzgqecsn/OGMJex6bm1c/bnIM0gZdMMp/ZkELn7UN8PM9jw==
+depinj-express@^2.0.0:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/depinj-express/-/depinj-express-2.0.1.tgz#adb8603eb4447f249b656295ee81b9eb18a44795"
+  integrity sha512-EJG28PGNvVuBWcRrn8Gnf/9XmQIXgIAG9Nog0g7DZtfHalEZlIgPEUqWEy0URja06WkKfoMpgwXB3QB5OHjukw==
   dependencies:
-    depinj-js "^1.5.2"
+    depinj-js "^1.5.5"
     express "^4.17.1"
 
-depinj-js@^1.5.2:
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/depinj-js/-/depinj-js-1.5.2.tgz#ca0d116bf64ec2625946c072896639c9b9f5865b"
-  integrity sha512-wqp4Y14jXT3F1PnGs6jsItzlyJ0o0uobEg8vqKXWvHYvyS3aJ/MD77jByRPPqWVXht5t7W3N+kdAUjdzpYN4rQ==
+depinj-js@^1.5.5:
+  version "1.5.5"
+  resolved "https://registry.yarnpkg.com/depinj-js/-/depinj-js-1.5.5.tgz#87bc30bc7a7dae68b44db0e9b3fbac05639d7f0b"
+  integrity sha512-e9kECWUDu0AW5aW/Mqk6U24UD20V1+8LmqGkaofmO4bPaWciUV45OE0BQS3UtlKDat+FlUaYvB53UsQIOdy5dg==
 
 destroy@~1.0.4:
   version "1.0.4"
@@ -3812,7 +3817,7 @@ utils-merge@1.0.1:
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
 
-uuid@^8.3.0:
+uuid@^8.3.0, uuid@^8.3.1:
   version "8.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
   integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==

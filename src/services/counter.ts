@@ -1,7 +1,9 @@
+import { ICounter } from './i-counter';
+
 /**
  * A simple service that keeps a counter.
  */
-export class Counter {
+export class Counter implements ICounter {
   private track: number;
 
   constructor(initialState: number = 0) {
